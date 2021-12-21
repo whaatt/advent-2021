@@ -1,7 +1,6 @@
 # mypy: ignore-errors
 # flake8: noqa
 
-
 data = open("20-input.txt").read().strip().split("\n")
 data = [[1 if char == "#" else 0 for char in row] for row in data]
 
